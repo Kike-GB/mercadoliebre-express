@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('partials/head.ejs') %>
+    <body>
+        <%- include('partials/header.ejs') %>
+        <%- include('partials/banner.ejs') %>
+        <main id="login">
+            <div class="ingreso">
+                <form action="/" method="POST">
+                    <input class="campo" type="text" id="nombreusuario" name="nombreusuario" placeholder="Nombre de Usuario">
+
+                    <input class="campo" type="password" id="pasword" name="pasword" placeholder="Contraseña"></p>
+                
+                    <p><input class="botone" type="submit" value="Enviar"></p>
+                </form>
+            </div>
+        </main>
+        <%- include('partials/footers.ejs') %>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include('partials/head.ejs') %>
+    <body>
+        <%- include('partials/header.ejs') %>
+        <%- include('partials/banner.ejs') %>
+        <main id="registro">
+            <div class="ingreso">
+                <form action="/" method="POST">
+                    <input class="campo" type="text" id="nombreapellido" name="nombreapellido" placeholder="Nombre y Apellido">
+
+                    <input class="campo" type="text" id="nombreusuario" name="nombreusuario" placeholder="Nombre de Usuario">
+
+                    <input class="campo" type="email" id="email" name="email" placeholder="Email"></p>
+                    <div class="tituloform">
+                        Fecha de nacimiento
+                    </div>
+                    <input class="campo" type="date" id="fechanacimiento" name="fechanacimiento">
+
+                    <input class="campo" type="text" id="domicilio" name="domicilio" placeholder="Domicilio"></p>
+
+                    <div class="tituloform">
+                        Perfil del Usuario:
+                    </div>
+                    <div class="perfiluser">
+                        <input class="radbut" type="radio" name="perfilusuario" value="CO" style="text-align: center;"> Comprador
+                        <input class="radbut" type="radio" name="perfilusuario" value="VE" checked> Vendedor
+                    </div>
+
+                    <div class="tituloform">
+                        Interes:
+                    </div>
+                    <div class="interes">
+                        <input class="chkbox" type="checkbox" name="interes" value="EL"> Electro
+                        <input class="chkbox" type="checkbox" name="interes" value="MO"> Moda
+                        <input class="chkbox" type="checkbox" name="interes" value="HO"> Hogar
+                        <input class="chkbox" type="checkbox" name="interes" value="JU"> Jugueteria
+                        <input class="chkbox" type="checkbox" name="interes" value="VS"> Vida Sana
+                    </div>
+                    <div class="tituloform">
+                        Elegi tu foto
+                    </div>
+                    <input type="file" multiple="multiple" id="photo" value="Seleccionar Archivo">
+                        
+                    <input class="campo" type="password" id="pasword" name="pasword" placeholder="Elegí tu Contraseña">
+                    <input class="campo" type="password" id="confirmapasword" name="confirmapasword" placeholder="Confirma tu Contraseña"></p>
+                
+                    <input class="botone" type="submit" value="Enviar">
+                    <input class="botonedos" type="reset" value="Borrar">
+                </form>
+            </div>
+        </main>
+        <%- include('partials/footers.ejs') %>
+    </body>
+</html>
