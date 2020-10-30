@@ -1,0 +1,72 @@
+[
+    {
+     "id": 1,
+     "name": "HP Store",
+     "image": "logo-HP.png"
+    },
+    {
+     "id": 2,
+     "name": "3M",
+     "image": "logo3m.jpg"
+    },
+    {
+     "id": 3,
+     "name": "Adidas performance",
+     "image": "logoadidas.jpg"
+    },
+    {
+     "id": 4,
+     "name": "Black+Decker",
+     "image": "logoblackanddecker.jpg"
+    },
+    {
+     "id": 5,
+     "name": "Nikon Argentina",
+     "image": "logonikon.jpg"
+    },
+    {
+     "id": 6,
+     "name": "Gafa",
+     "image": "logogafa.jpg"  
+    },
+    {
+     "id": 7,
+     "name": "Giro Didactico",
+     "image": "logogirodidactico.jpg"  
+    },
+    {
+     "id": 8,
+     "name": "JBL",
+     "image": "logojbl.jpg"  
+    },
+    {
+     "id": 9,
+     "name": "Ombu",
+     "image": "logoombu.png"  
+    },
+    {
+     "id": 10,
+     "name": "Puma Time",
+     "image": "logopuma.jpg"  
+    },
+    {
+     "id": 11,
+     "name": "Purina",
+     "image": "logopurina.jpg" 
+    },
+    {
+     "id": 12,
+     "name": "Quantum",
+     "image": "logoquantum.jpg" 
+    },
+    {
+     "id": 13,
+     "name": "Sansonite",
+     "image": "logosansonite.jpg"
+    },
+    {
+     "id": 14,
+     "name": "Suavestar",
+     "image": "logosuavestar.jpg"
+    }
+]
