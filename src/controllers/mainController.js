@@ -14,20 +14,12 @@ const controller = {
 	},
 	search: (req, res) => {
 		let data = [...products]
-		let buscar = req.query.keywords
-		let datas = [];
-		if (req.query.name) {
-			let datas = data.filter((product) => {
-				return product.name.include(buscar)
+		if (req.query.keywords) {
+			data = data.filter((busca) => {
+				return busca.name.includes(req.query.keywords)
 			})
 		}
-		if (req.query.description) {
-			let datas = data.filter((product) => {
-				return product.description.include(buscar)
-			})
-		}
-		console.log(datas)
-		res.render('results', { datas, buscar });
+		res.render('products', { products : data }); 
 	},
 	tiendas: (req,res) => {
 		res.render('tiendas', { tiendas });
